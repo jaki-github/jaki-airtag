@@ -21,7 +21,7 @@ function GetClosestVehicle(coords)
     return closestVehicle
 end
 
-RegisterNetEvent('qb-airtag:client:useAirtag', function()
+RegisterNetEvent('jaki-airtag:client:useAirtag', function()
     local playerPed = PlayerPedId()
     local playerCoords = GetEntityCoords(playerPed)
     local vehicle = GetClosestVehicle(playerCoords)
